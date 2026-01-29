@@ -76,8 +76,9 @@ AttentionDetection/
 ## Documentation
 Detailed design explanations, geometric derivations (EAR, yaw proxy), and system decisions are provided in the link below.
 Walks through my process of design. Important to read.
+
+### Link:
 ```
-Link:
 https://drive.google.com/file/d/1LuFQn-mB-8lK6lj9I75c2nQsqfFoAQNW/view?usp=sharing
 ```
 ## How to Run
