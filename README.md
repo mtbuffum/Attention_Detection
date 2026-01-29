@@ -20,11 +20,12 @@ The project is designed to be interpretable, modular, and efficient, emphasizing
 ---
 
 ## Attention Logic
+```
 IF no face detected → AWAY
 ELSE IF eyes closed > 2 seconds → DISTRACTED
 ELSE IF head turned > 3 seconds → DISTRACTED
 ELSE → FOCUSED
-
+```
 
 All thresholds are configurable and easily tunable.
 
@@ -39,22 +40,26 @@ All thresholds are configurable and easily tunable.
 ---
 
 ## Project Structure
+
+## Project Structure
+```
 AttentionDetection/
 ├─ src/
-│ ├─ main.py
-│ ├─ camera.py
-│ ├─ features.py
-│ ├─ logger.py
-│ ├─ event_logger.py
+│  ├─ main.py
+│  ├─ camera.py
+│  ├─ features.py
+│  ├─ logger.py
+│  ├─ event_logger.py
 ├─ blaze_face_short_range.tflite
 ├─ face_landmarker.task
 │
-├─ Notes/
-|  ├─ Attention Detection.pdf
-|
-├─ assets/ # Screenshots / demo media
+│
+├─ assets/
+│  └─ screenshots 
+│
 ├─ requirements.txt
 ├─ README.md
+```
 
 
 ---
@@ -84,6 +89,5 @@ python src/main.py
 ```bash
 pip install -r requirements.txt
 
----
 
 
