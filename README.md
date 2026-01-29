@@ -74,9 +74,12 @@ AttentionDetection/
 ![Away](assets/away.png)
 
 ## Documentation
-Detailed design explanations, geometric derivations (EAR, yaw proxy), and system decisions are provided in the /Notes directory.
+Detailed design explanations, geometric derivations (EAR, yaw proxy), and system decisions are provided in the link below.
 Walks through my process of design. Important to read.
-
+```
+Link:
+https://drive.google.com/file/d/1LuFQn-mB-8lK6lj9I75c2nQsqfFoAQNW/view?usp=sharing
+```
 ## How to Run
 Run the system by runnning main.py from AttentionDetection Directory and press q to exit
 python src/main.py
